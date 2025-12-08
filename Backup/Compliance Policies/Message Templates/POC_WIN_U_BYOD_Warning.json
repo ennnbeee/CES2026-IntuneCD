@@ -1,0 +1,18 @@
+{
+     "displayName": "POC_WIN_U_BYOD_Warning",
+     "description": null,
+     "defaultLocale": "en-gb",
+     "brandingOptions": "includeCompanyLogo,includeCompanyName,includeContactInformation,includeCompanyPortalLink",
+     "roleScopeTagIds": [
+          "Default"
+     ],
+     "localizedNotificationMessages@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/notificationMessageTemplates('a3817b68-a432-407c-b783-1fad1efffc4d')/localizedNotificationMessages",
+     "localizedNotificationMessages": [
+          {
+               "locale": "en-gb",
+               "subject": "Windows Device {{DeviceName}} Non-Compliance Notification",
+               "messageTemplate": "Hi {{UserName}}, \n\nYour personal Windows device with name {{DeviceName}} running {{OSAndVersion}} will be marked as non-compliant.\n\nPlease ensure that your device is up to date, has the firewall and antivirus enabled.\n",
+               "isDefault": true
+          }
+     ]
+}
