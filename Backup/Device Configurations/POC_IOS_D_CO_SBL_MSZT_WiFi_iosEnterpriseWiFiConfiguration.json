@@ -1,0 +1,30 @@
+{
+     "@odata.type": "#microsoft.graph.iosEnterpriseWiFiConfiguration",
+     "roleScopeTagIds": [
+          "Default"
+     ],
+     "deviceManagementApplicabilityRuleOsEdition": null,
+     "deviceManagementApplicabilityRuleOsVersion": null,
+     "deviceManagementApplicabilityRuleDeviceMode": null,
+     "description": null,
+     "displayName": "POC_IOS_D_CO_SBL_MSZT_WiFi",
+     "networkName": "wifi",
+     "ssid": "wifi",
+     "connectAutomatically": false,
+     "connectWhenNetworkNameIsHidden": false,
+     "wiFiSecurityType": "wpa2Enterprise",
+     "proxySettings": "none",
+     "proxyManualAddress": null,
+     "proxyManualPort": null,
+     "proxyAutomaticConfigurationUrl": null,
+     "disableMacAddressRandomization": null,
+     "preSharedKey": null,
+     "eapType": "peap",
+     "eapFastConfiguration": null,
+     "trustedServerCertificateNames": [],
+     "authenticationMethod": "usernameAndPassword",
+     "innerAuthenticationProtocolForEapTtls": null,
+     "outerIdentityPrivacyTemporaryValue": null,
+     "usernameFormatString": null,
+     "passwordFormatString": null
+}
