@@ -1,0 +1,14 @@
+{
+     "@odata.type": "#microsoft.graph.windowsHealthMonitoringConfiguration",
+     "roleScopeTagIds": [
+          "Default"
+     ],
+     "deviceManagementApplicabilityRuleOsEdition": null,
+     "deviceManagementApplicabilityRuleOsVersion": null,
+     "deviceManagementApplicabilityRuleDeviceMode": null,
+     "description": null,
+     "displayName": "POC_WIN_D_CO_SBL_MSZT_EndpointAnalytics",
+     "allowDeviceHealthMonitoring": "enabled",
+     "configDeviceHealthMonitoringScope": "bootPerformance",
+     "configDeviceHealthMonitoringCustomScope": null
+}
