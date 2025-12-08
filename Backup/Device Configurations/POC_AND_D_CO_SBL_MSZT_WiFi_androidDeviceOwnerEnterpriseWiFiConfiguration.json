@@ -1,0 +1,30 @@
+{
+     "@odata.type": "#microsoft.graph.androidDeviceOwnerEnterpriseWiFiConfiguration",
+     "roleScopeTagIds": [
+          "Default"
+     ],
+     "deviceManagementApplicabilityRuleOsEdition": null,
+     "deviceManagementApplicabilityRuleOsVersion": null,
+     "deviceManagementApplicabilityRuleDeviceMode": null,
+     "description": null,
+     "displayName": "POC_AND_D_CO_SBL_MSZT_WiFi",
+     "networkName": "0c62cdc3-8312-4cfd-92b1-f17268655270",
+     "ssid": "wifi",
+     "connectAutomatically": true,
+     "connectWhenNetworkNameIsHidden": false,
+     "wiFiSecurityType": "wpaEnterprise",
+     "preSharedKey": null,
+     "preSharedKeyIsSet": false,
+     "proxySettings": "none",
+     "proxyManualAddress": null,
+     "proxyManualPort": null,
+     "proxyAutomaticConfigurationUrl": null,
+     "proxyExclusionList": null,
+     "macAddressRandomizationMode": null,
+     "eapType": "peap",
+     "trustedServerCertificateNames": [],
+     "authenticationMethod": "usernameAndPassword",
+     "innerAuthenticationProtocolForEapTtls": null,
+     "innerAuthenticationProtocolForPeap": "none",
+     "outerIdentityPrivacyTemporaryValue": null
+}
