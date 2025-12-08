@@ -1,0 +1,28 @@
+{
+     "@odata.type": "#microsoft.graph.macOSEnterpriseWiFiConfiguration",
+     "roleScopeTagIds": [
+          "Default"
+     ],
+     "deviceManagementApplicabilityRuleOsEdition": null,
+     "deviceManagementApplicabilityRuleOsVersion": null,
+     "deviceManagementApplicabilityRuleDeviceMode": null,
+     "description": null,
+     "displayName": "POC_MAC_D_CO_SBL_MSZT_WiFi",
+     "networkName": "fd09d487-a246-48fb-8f00-7a0964c1ff35",
+     "ssid": "wifi",
+     "connectAutomatically": true,
+     "connectWhenNetworkNameIsHidden": true,
+     "wiFiSecurityType": "wpaEnterprise",
+     "proxySettings": "none",
+     "proxyManualAddress": null,
+     "proxyManualPort": null,
+     "proxyAutomaticConfigurationUrl": null,
+     "deploymentChannel": "deviceChannel",
+     "preSharedKey": null,
+     "eapType": "peap",
+     "eapFastConfiguration": null,
+     "trustedServerCertificateNames": [],
+     "authenticationMethod": "usernameAndPassword",
+     "innerAuthenticationProtocolForEapTtls": null,
+     "outerIdentityPrivacyTemporaryValue": null
+}
