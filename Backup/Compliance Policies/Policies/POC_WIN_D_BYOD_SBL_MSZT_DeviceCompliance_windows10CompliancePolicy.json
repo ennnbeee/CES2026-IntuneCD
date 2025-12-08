@@ -1,0 +1,58 @@
+{
+     "@odata.type": "#microsoft.graph.windows10CompliancePolicy",
+     "roleScopeTagIds": [
+          "Default"
+     ],
+     "description": null,
+     "displayName": "POC_WIN_D_BYOD_SBL_MSZT_DeviceCompliance",
+     "passwordRequired": true,
+     "passwordBlockSimple": true,
+     "passwordRequiredToUnlockFromIdle": false,
+     "passwordMinutesOfInactivityBeforeLock": 5,
+     "passwordExpirationDays": null,
+     "passwordMinimumLength": 6,
+     "passwordMinimumCharacterSetCount": null,
+     "passwordRequiredType": "numeric",
+     "passwordPreviousPasswordBlockCount": 24,
+     "requireHealthyDeviceReport": false,
+     "osMinimumVersion": "10.0.26100.0000",
+     "osMaximumVersion": null,
+     "mobileOsMinimumVersion": null,
+     "mobileOsMaximumVersion": null,
+     "earlyLaunchAntiMalwareDriverEnabled": false,
+     "bitLockerEnabled": false,
+     "secureBootEnabled": false,
+     "codeIntegrityEnabled": false,
+     "memoryIntegrityEnabled": false,
+     "kernelDmaProtectionEnabled": false,
+     "virtualizationBasedSecurityEnabled": false,
+     "firmwareProtectionEnabled": false,
+     "storageRequireEncryption": false,
+     "activeFirewallRequired": true,
+     "defenderEnabled": false,
+     "defenderVersion": null,
+     "signatureOutOfDate": false,
+     "rtpEnabled": false,
+     "antivirusRequired": true,
+     "antiSpywareRequired": true,
+     "deviceThreatProtectionEnabled": false,
+     "deviceThreatProtectionRequiredSecurityLevel": "unavailable",
+     "configurationManagerComplianceRequired": false,
+     "tpmRequired": false,
+     "deviceCompliancePolicyScript": null,
+     "validOperatingSystemBuildRanges": [],
+     "wslDistributions": [],
+     "scheduledActionsForRule": [
+          {
+               "ruleName": null,
+               "scheduledActionConfigurations": [
+                    {
+                         "gracePeriodHours": 0,
+                         "actionType": "block",
+                         "notificationTemplateId": "00000000-0000-0000-0000-000000000000",
+                         "notificationMessageCCList": []
+                    }
+               ]
+          }
+     ]
+}
