@@ -33,12 +33,12 @@ jobs:
           ref: main
           token: ${{ secrets.PAT }}
 
-      # Remove working backup directory
+      # Remove json files from backup directory rm -f -r -v "$GITHUB_WORKSPACE/$BACKUP_DIR"
       - name: Remove backup directory
         shell: bash
         working-directory: "${{ github.workspace }}"
         run: |
-          rm -f -r -v "$GITHUB_WORKSPACE/$BACKUP_DIR"
+          find "$GITHUB_WORKSPACE/$BACKUP_DIR" -type f ! -name '*.md' -delete
 
       # Install IntuneCD - https://github.com/almenscorner/IntuneCD
       - name: Install IntuneCD
