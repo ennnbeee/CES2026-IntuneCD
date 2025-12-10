@@ -1,6 +1,6 @@
 name: Backup Intune Configuration
 
-# Controls when the action will run.
+# Controls when the action will run - 1am
 on:
   workflow_dispatch:
   push:
@@ -12,7 +12,7 @@ on:
     # Run the Intune configuration backup every day at 1am
     - cron:  '0 1 * * *'
 
-# Add variables to the repo as secrets
+# Add variables to the repo from secrets
 env:
   TENANT_NAME: ${{ secrets.TENANT_NAME }}
   CLIENT_ID: ${{ secrets.CLIENT_ID }}
@@ -109,6 +109,7 @@ jobs:
       # Commit the markdown documents
       - name: Commit markdown document
         id: commit-doc
+        if: steps.commit.outputs.changes_detected == 'true'
         uses: stefanzweifel/git-auto-commit-action@v7
         continue-on-error: true
         with:
