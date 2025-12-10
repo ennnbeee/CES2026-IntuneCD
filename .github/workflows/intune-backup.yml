@@ -33,7 +33,7 @@ jobs:
           ref: main
           token: ${{ secrets.PAT }}
 
-      # Remove json files from backup directory rm -f -r -v "$GITHUB_WORKSPACE/$BACKUP_DIR"
+      # Remove json files from backup directory
       - name: Remove backup directory
         shell: bash
         working-directory: "${{ github.workspace }}"
@@ -48,7 +48,7 @@ jobs:
         run: |
           pip3 install IntuneCD
 
-      # Backup the latest Intune configuration
+      # Backup the latest Intune configuration - https://github.com/almenscorner/IntuneCD/wiki/Backup
       - name: Backup Intune configuration
         id: backup
         shell: bash
@@ -59,11 +59,10 @@ jobs:
               --mode=1 \
               --output=json \
               --path="$GITHUB_WORKSPACE/$BACKUP_DIR" \
-              --exclude assignments CompliancePartnerHeartbeat ManagedGooglePlay VPPusedLicenseCount Applications AppleEnrollmentProfile GPlaySyncTime \
+              --exclude CompliancePartnerHeartbeat ManagedGooglePlay VPPusedLicenseCount Applications AppleEnrollmentProfile GPlaySyncTime \
               --audit \
-              --ignore-omasettings \
-              #--exclude=assignments
-
+              --ignore-omasettings
+              
       # Gets the date to use for the commit tag
       - name: Get tag
         id: get-tag
@@ -88,7 +87,7 @@ jobs:
         if: steps.commit.outputs.changes_detected == 'false'
         run: echo "No Intune changes detected."
 
-      # Create documentation if changes to Intune
+      # Create documentation if changes to Intune - https://github.com/almenscorner/IntuneCD/wiki/Document
       - name: Generate documentation
         id: create-doc
         if: steps.commit.outputs.changes_detected == 'true'
