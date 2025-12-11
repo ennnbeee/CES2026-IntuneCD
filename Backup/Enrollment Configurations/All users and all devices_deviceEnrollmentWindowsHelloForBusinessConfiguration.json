@@ -18,5 +18,15 @@
      "pinExpirationInDays": 0,
      "enhancedBiometricsState": "enabled",
      "securityKeyForSignIn": "disabled",
-     "enhancedSignInSecurity": 1
+     "enhancedSignInSecurity": 1,
+     "assignments": [
+          {
+               "source": "direct",
+               "target": {
+                    "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
+                    "deviceAndAppManagementAssignmentFilterId": null,
+                    "deviceAndAppManagementAssignmentFilterType": "none"
+               }
+          }
+     ]
 }
