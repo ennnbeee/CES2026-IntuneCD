@@ -103,5 +103,18 @@
      "messagingRedirectAppPackageId": "",
      "messagingRedirectAppDisplayName": "",
      "exemptedAppPackages": [],
-     "approvedKeyboards": []
+     "approvedKeyboards": [],
+     "assignments": [
+          {
+               "source": "direct",
+               "target": {
+                    "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+                    "deviceAndAppManagementAssignmentFilterId": null,
+                    "deviceAndAppManagementAssignmentFilterType": "none",
+                    "groupName": "[SWC] - Intune-Users",
+                    "groupType": "DynamicMembership",
+                    "membershipRule": "(user.assignedPlans -any (assignedPlan.servicePlanId -eq \"c1ec4a95-1f05-45b3-a911-aa3fa01094f5\" -and assignedPlan.capabilityStatus -eq \"Enabled\")) and (user.accountEnabled -eq true)"
+               }
+          }
+     ]
 }
