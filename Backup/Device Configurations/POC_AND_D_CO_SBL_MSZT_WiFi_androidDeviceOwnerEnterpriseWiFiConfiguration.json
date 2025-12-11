@@ -26,5 +26,16 @@
      "authenticationMethod": "usernameAndPassword",
      "innerAuthenticationProtocolForEapTtls": null,
      "innerAuthenticationProtocolForPeap": "none",
-     "outerIdentityPrivacyTemporaryValue": null
+     "outerIdentityPrivacyTemporaryValue": null,
+     "assignments": [
+          {
+               "source": "direct",
+               "intent": "apply",
+               "target": {
+                    "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
+                    "deviceAndAppManagementAssignmentFilterId": null,
+                    "deviceAndAppManagementAssignmentFilterType": "none"
+               }
+          }
+     ]
 }
