@@ -26,5 +26,16 @@
      "innerAuthenticationProtocolForEapTtls": null,
      "outerIdentityPrivacyTemporaryValue": null,
      "usernameFormatString": null,
-     "passwordFormatString": null
+     "passwordFormatString": null,
+     "assignments": [
+          {
+               "source": "direct",
+               "intent": "apply",
+               "target": {
+                    "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
+                    "deviceAndAppManagementAssignmentFilterId": null,
+                    "deviceAndAppManagementAssignmentFilterType": "none"
+               }
+          }
+     ]
 }
