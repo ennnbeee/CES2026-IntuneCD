@@ -10,5 +10,16 @@
      "displayName": "POC_WIN_D_CO_SBL_MSZT_EndpointAnalytics",
      "allowDeviceHealthMonitoring": "enabled",
      "configDeviceHealthMonitoringScope": "bootPerformance",
-     "configDeviceHealthMonitoringCustomScope": null
+     "configDeviceHealthMonitoringCustomScope": null,
+     "assignments": [
+          {
+               "source": "direct",
+               "intent": "apply",
+               "target": {
+                    "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
+                    "deviceAndAppManagementAssignmentFilterId": null,
+                    "deviceAndAppManagementAssignmentFilterType": "none"
+               }
+          }
+     ]
 }
