@@ -59,7 +59,7 @@ jobs:
               --mode=1 \
               --output=json \
               --path="$GITHUB_WORKSPACE/$BACKUP_DIR" \
-              --exclude CompliancePartnerHeartbeat ManagedGooglePlay VPPusedLicenseCount Applications AppleEnrollmentProfile GPlaySyncTime \
+              --exclude CompliancePartner CompliancePartnerHeartbeat ManagedGooglePlay VPPusedLicenseCount Applications AppleEnrollmentProfile GPlaySyncTime \
               --audit \
               --ignore-omasettings
               
