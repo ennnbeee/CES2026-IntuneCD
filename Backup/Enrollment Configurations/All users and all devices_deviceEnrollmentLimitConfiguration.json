@@ -5,5 +5,15 @@
      "priority": 0,
      "roleScopeTagIds": [],
      "deviceEnrollmentConfigurationType": "limit",
-     "limit": 5
+     "limit": 5,
+     "assignments": [
+          {
+               "source": "direct",
+               "target": {
+                    "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
+                    "deviceAndAppManagementAssignmentFilterId": null,
+                    "deviceAndAppManagementAssignmentFilterType": "none"
+               }
+          }
+     ]
 }

@@ -47,5 +47,16 @@
           "@odata.type": "#microsoft.graph.windowsUpdateActiveHoursInstall",
           "activeHoursStart": "08:00:00.0000000",
           "activeHoursEnd": "17:00:00.0000000"
-     }
+     },
+     "assignments": [
+          {
+               "source": "direct",
+               "intent": "apply",
+               "target": {
+                    "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
+                    "deviceAndAppManagementAssignmentFilterId": null,
+                    "deviceAndAppManagementAssignmentFilterType": "none"
+               }
+          }
+     ]
 }

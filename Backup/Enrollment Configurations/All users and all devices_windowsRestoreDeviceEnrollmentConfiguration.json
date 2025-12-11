@@ -5,5 +5,15 @@
      "priority": 0,
      "roleScopeTagIds": [],
      "deviceEnrollmentConfigurationType": "windowsRestore",
-     "state": "notConfigured"
+     "state": "notConfigured",
+     "assignments": [
+          {
+               "source": "direct",
+               "target": {
+                    "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
+                    "deviceAndAppManagementAssignmentFilterId": null,
+                    "deviceAndAppManagementAssignmentFilterType": "none"
+               }
+          }
+     ]
 }

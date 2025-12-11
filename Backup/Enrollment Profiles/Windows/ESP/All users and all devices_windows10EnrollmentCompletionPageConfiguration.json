@@ -16,5 +16,15 @@
      "allowNonBlockingAppInstallation": false,
      "installQualityUpdates": false,
      "trackInstallProgressForAutopilotOnly": false,
-     "disableUserStatusTrackingAfterFirstUser": false
+     "disableUserStatusTrackingAfterFirstUser": false,
+     "assignments": [
+          {
+               "source": "direct",
+               "target": {
+                    "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
+                    "deviceAndAppManagementAssignmentFilterId": null,
+                    "deviceAndAppManagementAssignmentFilterType": "none"
+               }
+          }
+     ]
 }

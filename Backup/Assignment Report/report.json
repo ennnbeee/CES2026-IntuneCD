@@ -1,0 +1,21 @@
+[
+     {
+          "groupName": "[SWC] - Intune-Users",
+          "groupType": "DynamicMembership",
+          "membershipRule": "(user.assignedPlans -any (assignedPlan.servicePlanId -eq \"c1ec4a95-1f05-45b3-a911-aa3fa01094f5\" -and assignedPlan.capabilityStatus -eq \"Enabled\")) and (user.accountEnabled -eq true)",
+          "assignedTo": {
+               "App Protection": [
+                    {
+                         "name": "POC_AND_U_SBL_MSZT_AppProtection",
+                         "type": "androidManagedAppProtection",
+                         "intent": "Include"
+                    },
+                    {
+                         "name": "POC_IOS_U_SBL_MSZT_AppProtection",
+                         "type": "iosManagedAppProtection",
+                         "intent": "Include"
+                    }
+               ]
+          }
+     }
+]
