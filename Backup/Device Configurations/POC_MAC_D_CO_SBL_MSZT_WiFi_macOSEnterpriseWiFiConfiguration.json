@@ -24,5 +24,16 @@
      "trustedServerCertificateNames": [],
      "authenticationMethod": "usernameAndPassword",
      "innerAuthenticationProtocolForEapTtls": null,
-     "outerIdentityPrivacyTemporaryValue": null
+     "outerIdentityPrivacyTemporaryValue": null,
+     "assignments": [
+          {
+               "source": "direct",
+               "intent": "apply",
+               "target": {
+                    "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
+                    "deviceAndAppManagementAssignmentFilterId": null,
+                    "deviceAndAppManagementAssignmentFilterType": "none"
+               }
+          }
+     ]
 }
