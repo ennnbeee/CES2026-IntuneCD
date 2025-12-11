@@ -1,6 +1,11 @@
 ## Enrollment Configurations
 ### All users and all devices
 Description: This is the default Device Limit Restriction applied with the lowest priority to all users regardless of group membership\.
+#### Assignments
+|intent |  target   |filter type|filter name|
+|-------|-----------|-----------|-----------|
+|Include|All Devices|none       |           |
+
 #### Configuration
 |              setting               |                       value                       |
 |------------------------------------|---------------------------------------------------|
@@ -11,6 +16,11 @@ Description: This is the default Device Limit Restriction applied with the lowes
 
 ### All users and all devices
 Description: This is the default Device Type Restriction applied with the lowest priority to all users regardless of group membership\.
+#### Assignments
+|intent |  target   |filter type|filter name|
+|-------|-----------|-----------|-----------|
+|Include|All Devices|none       |           |
+
 #### Configuration
 |              setting               |                                                                                                  value                                                                                                  |
 |------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -28,6 +38,11 @@ Description: This is the default Device Type Restriction applied with the lowest
 
 ### All users and all devices
 Description: This is the default Windows Hello for Business configuration applied with the lowest priority to all users regardless of group membership\.
+#### Assignments
+|intent |  target   |filter type|filter name|
+|-------|-----------|-----------|-----------|
+|Include|All Devices|none       |           |
+
 #### Configuration
 |              setting               |                                value                                |
 |------------------------------------|---------------------------------------------------------------------|
@@ -50,6 +65,11 @@ Description: This is the default Windows Hello for Business configuration applie
 
 ### All users and all devices
 Description: This is the default Windows Restore configuration applied with the lowest priority to all users and all devices regardless of group membership\.
+#### Assignments
+|intent |  target   |filter type|filter name|
+|-------|-----------|-----------|-----------|
+|Include|All Devices|none       |           |
+
 #### Configuration
 |              setting               |                           value                            |
 |------------------------------------|------------------------------------------------------------|

@@ -1,6 +1,11 @@
 ## Enrollment Status Page
 ### All users and all devices
 Description: This is the default enrollment status screen configuration applied with the lowest priority to all users and all devices regardless of group membership\.
+#### Assignments
+|intent |  target   |filter type|filter name|
+|-------|-----------|-----------|-----------|
+|Include|All Devices|none       |           |
+
 #### Configuration
 |                   setting                   |                             value                             |
 |---------------------------------------------|---------------------------------------------------------------|

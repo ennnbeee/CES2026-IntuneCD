@@ -1,5 +1,10 @@
 ## Configuration Profiles
 ### POC_AND_D_CO_SBL_MSZT_WiFi
+#### Assignments
+|intent |  target   |filter type|filter name|
+|-------|-----------|-----------|-----------|
+|Include|All Devices|none       |           |
+
 #### Configuration
 |               setting                |                            value                             |
 |--------------------------------------|--------------------------------------------------------------|
@@ -18,6 +23,11 @@
 |Inner Authentication Protocol For Peap|none                                                          |
 
 ### POC_IOS_D_CO_SBL_MSZT_WiFi
+#### Assignments
+|intent |  target   |filter type|filter name|
+|-------|-----------|-----------|-----------|
+|Include|All Devices|none       |           |
+
 #### Configuration
 |              setting              |                     value                     |
 |-----------------------------------|-----------------------------------------------|
@@ -34,6 +44,11 @@
 |Authentication Method              |usernameAndPassword                            |
 
 ### POC_MAC_D_CO_SBL_MSZT_WiFi
+#### Assignments
+|intent |  target   |filter type|filter name|
+|-------|-----------|-----------|-----------|
+|Include|All Devices|none       |           |
+
 #### Configuration
 |              setting              |                      value                      |
 |-----------------------------------|-------------------------------------------------|
@@ -51,6 +66,11 @@
 |Authentication Method              |usernameAndPassword                              |
 
 ### POC_WIN_D_CO_SBL_MSZT_EndpointAnalytics
+#### Assignments
+|intent |  target   |filter type|filter name|
+|-------|-----------|-----------|-----------|
+|Include|All Devices|none       |           |
+
 #### Configuration
 |               setting               |                        value                        |
 |-------------------------------------|-----------------------------------------------------|
@@ -61,6 +81,11 @@
 |Config Device Health Monitoring Scope|bootPerformance                                      |
 
 ### POC_WIN_D_CO_SBL_MSZT_Updates
+#### Assignments
+|intent |  target   |filter type|filter name|
+|-------|-----------|-----------|-----------|
+|Include|All Devices|none       |           |
+
 #### Configuration
 |                setting                 |                                                                          value                                                                           |
 |----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|

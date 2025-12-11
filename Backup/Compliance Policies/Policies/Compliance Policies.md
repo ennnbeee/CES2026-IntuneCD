@@ -1,5 +1,10 @@
 ## Compliance Policies
 ### POC_AND_D_CO_SBL_MSZT_DeviceCompliance
+#### Assignments
+|intent |  target   |filter type|filter name|
+|-------|-----------|-----------|-----------|
+|Include|All Devices|none       |           |
+
 #### Configuration
 |                     setting                      |                                                                                                                     value                                                                                                                      |
 |--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -21,6 +26,11 @@
 |Scheduled Actions For Rule                        |**ruleName:** None<br/>**scheduledActionConfigurations:** <ul>**gracePeriodHours:** 0<br/>**actionType:** block<br/>**notificationTemplateId:** 00000000-0000-0000-0000-000000000000<br/>**notificationMessageCCList:** <ul></ul><br/></ul><br/>|
 
 ### POC_AND_U_BYOD_SBL_MSZT_DeviceCompliance
+#### Assignments
+|intent | target  |filter type|filter name|
+|-------|---------|-----------|-----------|
+|Include|All Users|none       |           |
+
 #### Configuration
 |                        setting                         |                                                                                                                     value                                                                                                                      |
 |--------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -57,6 +67,11 @@
 |Scheduled Actions For Rule                              |**ruleName:** None<br/>**scheduledActionConfigurations:** <ul>**gracePeriodHours:** 0<br/>**actionType:** block<br/>**notificationTemplateId:** 00000000-0000-0000-0000-000000000000<br/>**notificationMessageCCList:** <ul></ul><br/></ul><br/>|
 
 ### POC_IOS_D_CO_SBL_MSZT_DeviceCompliance
+#### Assignments
+|intent |  target   |filter type|filter name|
+|-------|-----------|-----------|-----------|
+|Include|All Devices|none       |           |
+
 #### Configuration
 |                      setting                       |                                                                                                                     value                                                                                                                      |
 |----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -78,6 +93,11 @@
 |Scheduled Actions For Rule                          |**ruleName:** None<br/>**scheduledActionConfigurations:** <ul>**gracePeriodHours:** 0<br/>**actionType:** block<br/>**notificationTemplateId:** 00000000-0000-0000-0000-000000000000<br/>**notificationMessageCCList:** <ul></ul><br/></ul><br/>|
 
 ### POC_IOS_U_BYOD_SBL_MSZT_DeviceCompliance
+#### Assignments
+|intent | target  |filter type|filter name|
+|-------|---------|-----------|-----------|
+|Include|All Users|none       |           |
+
 #### Configuration
 |                      setting                       |                                                                                                                     value                                                                                                                      |
 |----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -99,6 +119,11 @@
 |Scheduled Actions For Rule                          |**ruleName:** None<br/>**scheduledActionConfigurations:** <ul>**gracePeriodHours:** 0<br/>**actionType:** block<br/>**notificationTemplateId:** 00000000-0000-0000-0000-000000000000<br/>**notificationMessageCCList:** <ul></ul><br/></ul><br/>|
 
 ### POC_MAC_D_CO_SBL_MSZT_DeviceCompliance
+#### Assignments
+|intent |  target   |filter type|filter name|
+|-------|-----------|-----------|-----------|
+|Include|All Devices|none       |           |
+
 #### Configuration
 |                     setting                      |                                                                                                                     value                                                                                                                      |
 |--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -121,6 +146,11 @@
 |Scheduled Actions For Rule                        |**ruleName:** None<br/>**scheduledActionConfigurations:** <ul>**gracePeriodHours:** 0<br/>**actionType:** block<br/>**notificationTemplateId:** 00000000-0000-0000-0000-000000000000<br/>**notificationMessageCCList:** <ul></ul><br/></ul><br/>|
 
 ### POC_MAC_U_BYOD_SBL_MSZT_DeviceCompliance
+#### Assignments
+|intent | target  |filter type|filter name|
+|-------|---------|-----------|-----------|
+|Include|All Users|none       |           |
+
 #### Configuration
 |                     setting                      |                                                                                                                     value                                                                                                                      |
 |--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -146,6 +176,11 @@
 |Scheduled Actions For Rule                        |**ruleName:** None<br/>**scheduledActionConfigurations:** <ul>**gracePeriodHours:** 0<br/>**actionType:** block<br/>**notificationTemplateId:** 00000000-0000-0000-0000-000000000000<br/>**notificationMessageCCList:** <ul></ul><br/></ul><br/>|
 
 ### POC_WIN_D_CO_SBL_MSZT_DeviceCompliance
+#### Assignments
+|intent |  target   |filter type|filter name|
+|-------|-----------|-----------|-----------|
+|Include|All Devices|none       |           |
+
 #### Configuration
 |                    setting                     |                                                                                                                     value                                                                                                                      |
 |------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -180,6 +215,11 @@
 |Scheduled Actions For Rule                      |**ruleName:** None<br/>**scheduledActionConfigurations:** <ul>**gracePeriodHours:** 0<br/>**actionType:** block<br/>**notificationTemplateId:** 00000000-0000-0000-0000-000000000000<br/>**notificationMessageCCList:** <ul></ul><br/></ul><br/>|
 
 ### POC_WIN_U_BYOD_SBL_MSZT_DeviceCompliance
+#### Assignments
+|intent | target  |filter type|filter name|
+|-------|---------|-----------|-----------|
+|Include|All Users|none       |           |
+
 #### Configuration
 |                    setting                     |                                                                                                                     value                                                                                                                      |
 |------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
