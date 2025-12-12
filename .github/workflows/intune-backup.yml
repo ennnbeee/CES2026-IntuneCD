@@ -94,7 +94,7 @@ jobs:
         shell: bash
         working-directory: "${{ github.workspace }}"
         run: |
-          INTRO="Intune backup and documentation generated at $GITHUB_REPOSITORY"
+          INTRO="Intune backup and documentation generated at $GITHUB_REPOSITORY <img align=\"right\" width=\"96\" height=\"96\" src=\"./logo.png\">"
           IntuneCD-startdocumentation \
               --path="$GITHUB_WORKSPACE/$BACKUP_DIR" \
               --outpath="$GITHUB_WORKSPACE/$BACKUP_DIR/$DOC_FILE.md" \
