@@ -1,10 +1,10 @@
 # Intune Documentation 
 
-Intune backup and documentation generated at ennnbeee/IntuneCD-CES2026 
+Intune backup and documentation generated at ennnbeee/CES2026-IntuneCD <img align="right" width="96" height="96" src="./logo.png"> 
 
 **Tenant:** ennnnbeeee.onmicrosoft.com 
 
-**Document updated on:** 11/12/2025 02:49:41 
+**Document updated on:** 12/12/2025 15:31:44 
 
 ## File index 
 
@@ -21,6 +21,8 @@ Intune backup and documentation generated at ennnbeee/IntuneCD-CES2026
 [Enrollment Status Page.md](./Enrollment%20Profiles/Windows/ESP/Enrollment%20Status%20Page.md) 
 
 [Message Templates.md](./Compliance%20Policies/Message%20Templates/Message%20Templates.md) 
+
+[Roles.md](./Roles/Roles.md) 
 
 [Scope Tags.md](./Scope%20Tags/Scope%20Tags.md) 
 
