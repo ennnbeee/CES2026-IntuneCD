@@ -61,7 +61,8 @@ jobs:
               --path="$GITHUB_WORKSPACE/$BACKUP_DIR" \
               --exclude CompliancePartner CompliancePartnerHeartbeat ManagedGooglePlay VPPusedLicenseCount Applications AppleEnrollmentProfile GPlaySyncTime \
               --audit \
-              --ignore-omasettings
+              --ignore-omasettings \
+              --verbose
               
       # Gets the date to use for the commit tag
       - name: Get tag
