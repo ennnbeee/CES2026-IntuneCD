@@ -38,7 +38,7 @@ jobs:
         shell: bash
         working-directory: "${{ github.workspace }}"
         run: |
-          find "$GITHUB_WORKSPACE/$BACKUP_DIR" -type f ! \( -name '*.md' -o -name '*.png' \) -delete
+          find "$GITHUB_WORKSPACE/$BACKUP_DIR" -type f ! -name '*.md' -delete
 
       # Install IntuneCD - https://github.com/almenscorner/IntuneCD
       - name: Install IntuneCD
