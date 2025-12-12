@@ -60,9 +60,8 @@ jobs:
               --output=json \
               --path="$GITHUB_WORKSPACE/$BACKUP_DIR" \
               --exclude CompliancePartner CompliancePartnerHeartbeat ManagedGooglePlay VPPusedLicenseCount Applications AppleEnrollmentProfile GPlaySyncTime \
-              --audit \
-              --ignore-omasettings
-                            
+              --audit 
+              
       # Gets the date to use for the commit tag
       - name: Get tag
         id: get-tag
