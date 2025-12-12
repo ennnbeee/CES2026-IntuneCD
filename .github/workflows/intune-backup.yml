@@ -19,7 +19,7 @@ env:
   CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
   BACKUP_DIR: "Backup"
   DOC_FILE: "README"
-  AUDIT_DAYS_BACK: 30
+  AUDIT_DAYS_BACK: 7
 
 jobs:
   backup:
@@ -61,9 +61,8 @@ jobs:
               --path="$GITHUB_WORKSPACE/$BACKUP_DIR" \
               --exclude CompliancePartner CompliancePartnerHeartbeat ManagedGooglePlay VPPusedLicenseCount Applications AppleEnrollmentProfile GPlaySyncTime \
               --audit \
-              --ignore-omasettings \
-              --verbose
-              
+              --ignore-omasettings
+                            
       # Gets the date to use for the commit tag
       - name: Get tag
         id: get-tag
