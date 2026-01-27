@@ -1,0 +1,42 @@
+{
+     "@odata.type": "#microsoft.graph.macOSCompliancePolicy",
+     "roleScopeTagIds": [
+          "Default"
+     ],
+     "description": "Baseline macOS compliance policy requiring FileVault encryption, Firewall enabled, SIP enabled, and minimum macOS 15.0. Gatekeeper configuration is handled separately via configuration policy.",
+     "displayName": "[intune-my-macs] CMP-CMP-001 - macOS Compliance Baseline",
+     "passwordRequired": false,
+     "passwordBlockSimple": false,
+     "passwordExpirationDays": null,
+     "passwordMinimumLength": null,
+     "passwordMinutesOfInactivityBeforeLock": null,
+     "passwordPreviousPasswordBlockCount": null,
+     "passwordMinimumCharacterSetCount": null,
+     "passwordRequiredType": "deviceDefault",
+     "osMinimumVersion": "15.0",
+     "osMaximumVersion": null,
+     "osMinimumBuildVersion": null,
+     "osMaximumBuildVersion": null,
+     "systemIntegrityProtectionEnabled": true,
+     "deviceThreatProtectionEnabled": false,
+     "deviceThreatProtectionRequiredSecurityLevel": "unavailable",
+     "advancedThreatProtectionRequiredSecurityLevel": "unavailable",
+     "storageRequireEncryption": true,
+     "gatekeeperAllowedAppSource": "notConfigured",
+     "firewallEnabled": true,
+     "firewallBlockAllIncoming": false,
+     "firewallEnableStealthMode": true,
+     "scheduledActionsForRule": [
+          {
+               "ruleName": null,
+               "scheduledActionConfigurations": [
+                    {
+                         "gracePeriodHours": 0,
+                         "actionType": "block",
+                         "notificationTemplateId": "00000000-0000-0000-0000-000000000000",
+                         "notificationMessageCCList": []
+                    }
+               ]
+          }
+     ]
+}
