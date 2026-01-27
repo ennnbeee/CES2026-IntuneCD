@@ -4,7 +4,7 @@ Intune backup and documentation generated at ennnbeee/CES2026-IntuneCD <img alig
 
 **Tenant:** ennnnbeeee.onmicrosoft.com 
 
-**Document updated on:** 20/12/2025 02:25:53 
+**Document updated on:** 27/01/2026 02:59:01 
 
 ## File index 
 
@@ -13,6 +13,8 @@ Intune backup and documentation generated at ennnbeee/CES2026-IntuneCD <img alig
 [Compliance Policies.md](./Compliance%20Policies/Policies/Compliance%20Policies.md) 
 
 [Configuration Profiles.md](./Device%20Configurations/Configuration%20Profiles.md) 
+
+[Custom Attributes.md](./Custom%20Attributes/Custom%20Attributes.md) 
 
 [Device Management Settings.md](./Device%20Management%20Settings/Device%20Management%20Settings.md) 
 
@@ -27,6 +29,8 @@ Intune backup and documentation generated at ennnbeee/CES2026-IntuneCD <img alig
 [Scope Tags.md](./Scope%20Tags/Scope%20Tags.md) 
 
 [Settings Catalog.md](./Settings%20Catalog/Settings%20Catalog.md) 
+
+[Shell Scripts.md](./Scripts/Shell/Shell%20Scripts.md) 
 
 [Windows Enrollment Profiles.md](./Enrollment%20Profiles/Windows/Windows%20Enrollment%20Profiles.md) 
 
