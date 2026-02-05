@@ -1,0 +1,90 @@
+{
+     "creationSource": null,
+     "description": "CIS (L1) Windows Update (103) - Windows 11 Intune 4.0.0\n\nRemoved\nManage Preview Builds: Disable Preview builds",
+     "name": "POC_WIN_D_CO_SBL_CIS_MS_WindowsUpdate",
+     "platforms": "windows10",
+     "priorityMetaData": null,
+     "roleScopeTagIds": [
+          "Default"
+     ],
+     "settingCount": 5,
+     "technologies": "mdm",
+     "templateReference": {
+          "templateId": "",
+          "templateFamily": "none",
+          "templateDisplayName": null,
+          "templateDisplayVersion": null
+     },
+     "settings": [
+          {
+               "id": "0",
+               "settingInstance": {
+                    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                    "settingDefinitionId": "device_vendor_msft_policy_config_update_allowautoupdate",
+                    "settingInstanceTemplateReference": null,
+                    "auditRuleInformation": null,
+                    "choiceSettingValue": {
+                         "settingValueTemplateReference": null,
+                         "value": "device_vendor_msft_policy_config_update_allowautoupdate_2",
+                         "children": []
+                    }
+               }
+          },
+          {
+               "id": "1",
+               "settingInstance": {
+                    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                    "settingDefinitionId": "device_vendor_msft_policy_config_update_setdisablepauseuxaccess",
+                    "settingInstanceTemplateReference": null,
+                    "auditRuleInformation": null,
+                    "choiceSettingValue": {
+                         "settingValueTemplateReference": null,
+                         "value": "device_vendor_msft_policy_config_update_setdisablepauseuxaccess_1",
+                         "children": []
+                    }
+               }
+          },
+          {
+               "id": "2",
+               "settingInstance": {
+                    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                    "settingDefinitionId": "device_vendor_msft_policy_config_update_deferfeatureupdatesperiodindays",
+                    "settingInstanceTemplateReference": null,
+                    "auditRuleInformation": null,
+                    "simpleSettingValue": {
+                         "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+                         "settingValueTemplateReference": null,
+                         "value": 180
+                    }
+               }
+          },
+          {
+               "id": "3",
+               "settingInstance": {
+                    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                    "settingDefinitionId": "device_vendor_msft_policy_config_update_deferqualityupdatesperiodindays",
+                    "settingInstanceTemplateReference": null,
+                    "auditRuleInformation": null,
+                    "simpleSettingValue": {
+                         "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+                         "settingValueTemplateReference": null,
+                         "value": 0
+                    }
+               }
+          },
+          {
+               "id": "4",
+               "settingInstance": {
+                    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                    "settingDefinitionId": "device_vendor_msft_policy_config_update_scheduledinstallday",
+                    "settingInstanceTemplateReference": null,
+                    "auditRuleInformation": null,
+                    "choiceSettingValue": {
+                         "settingValueTemplateReference": null,
+                         "value": "device_vendor_msft_policy_config_update_scheduledinstallday_0",
+                         "children": []
+                    }
+               }
+          }
+     ]
+}
