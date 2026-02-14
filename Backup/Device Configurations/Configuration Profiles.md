@@ -76,20 +76,21 @@ Description: Configures screensaver idle time \(10 minutes\) to address Mac Eval
 |Include|All Devices|none       |           |
 
 #### Configuration
-|              setting              |                      value                      |
-|-----------------------------------|-------------------------------------------------|
-|Odata type                         |#microsoft.graph.macOSEnterpriseWiFiConfiguration|
-|Role Scope Tag Ids                 |Default<br/>                                     |
-|Display Name                       |POC_MAC_D_CO_SBL_MSZT_WiFi                       |
-|Network Name                       |fd09d487-a246-48fb-8f00-7a0964c1ff35             |
-|Ssid                               |wifi                                             |
-|Connect Automatically              |True                                             |
-|Connect When Network Name Is Hidden|True                                             |
-|Wi Fi Security Type                |wpaEnterprise                                    |
-|Proxy Settings                     |none                                             |
-|Deployment Channel                 |deviceChannel                                    |
-|Eap Type                           |peap                                             |
-|Authentication Method              |usernameAndPassword                              |
+|                 setting                 |                      value                      |
+|-----------------------------------------|-------------------------------------------------|
+|Odata type                               |#microsoft.graph.macOSEnterpriseWiFiConfiguration|
+|Role Scope Tag Ids                       |Default<br/>                                     |
+|Display Name                             |POC_MAC_D_CO_SBL_MSZT_WiFi                       |
+|Network Name                             |fd09d487-a246-48fb-8f00-7a0964c1ff35             |
+|Ssid                                     |wifi                                             |
+|Connect Automatically                    |True                                             |
+|Connect When Network Name Is Hidden      |True                                             |
+|Wi Fi Security Type                      |wpaEnterprise                                    |
+|Proxy Settings                           |none                                             |
+|Deployment Channel                       |deviceChannel                                    |
+|Wifi Require Physical Mac Address Enabled|False                                            |
+|Eap Type                                 |peap                                             |
+|Authentication Method                    |usernameAndPassword                              |
 
 ### POC_WIN_D_CO_SBL_MSZT_EndpointAnalytics
 #### Assignments
