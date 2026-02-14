@@ -18,6 +18,7 @@
      "proxyManualPort": null,
      "proxyAutomaticConfigurationUrl": null,
      "deploymentChannel": "deviceChannel",
+     "wifiRequirePhysicalMacAddressEnabled": false,
      "preSharedKey": null,
      "eapType": "peap",
      "eapFastConfiguration": null,
