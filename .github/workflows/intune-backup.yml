@@ -59,7 +59,7 @@ jobs:
               --mode=1 \
               --output=json \
               --path="$GITHUB_WORKSPACE/$BACKUP_DIR" \
-              --exclude CompliancePartner CompliancePartnerHeartbeat ManagedGooglePlay VPPusedLicenseCount Applications AppleEnrollmentProfile GPlaySyncTime \
+              --exclude APNs VPP CompliancePartner ManagementPartner CompliancePartnerHeartbeat ManagedGooglePlay VPPusedLicenseCount Applications AppleEnrollmentProfile GPlaySyncTime \
               --audit 
               
       # Gets the date to use for the commit tag
