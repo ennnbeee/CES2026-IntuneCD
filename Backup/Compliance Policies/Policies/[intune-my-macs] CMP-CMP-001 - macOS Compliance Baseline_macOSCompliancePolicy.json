@@ -26,6 +26,7 @@
      "firewallEnabled": true,
      "firewallBlockAllIncoming": false,
      "firewallEnableStealthMode": true,
+     "deviceCompliancePolicyScript": null,
      "scheduledActionsForRule": [
           {
                "ruleName": null,
