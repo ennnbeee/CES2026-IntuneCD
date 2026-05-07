@@ -35,6 +35,8 @@ Description: This is the default Device Type Restriction applied with the lowest
 |Android For Work Restriction        |**platformBlocked:** False<br/>**personalDeviceEnrollmentBlocked:** False<br/>**osMinimumVersion:** <br/>**osMaximumVersion:** <br/>**blockedManufacturers:** <ul></ul>**blockedSkus:** <ul></ul>        |
 |Mac Restriction                     |**platformBlocked:** False<br/>**personalDeviceEnrollmentBlocked:** False<br/>**osMinimumVersion:** None<br/>**osMaximumVersion:** None<br/>**blockedManufacturers:** <ul></ul>**blockedSkus:** <ul></ul>|
 |Mac O S Restriction                 |**platformBlocked:** False<br/>**personalDeviceEnrollmentBlocked:** False<br/>**osMinimumVersion:** None<br/>**osMaximumVersion:** None<br/>**blockedManufacturers:** <ul></ul>**blockedSkus:** <ul></ul>|
+|Vision O S Restriction              |**platformBlocked:** False<br/>**personalDeviceEnrollmentBlocked:** False<br/>**osMinimumVersion:** None<br/>**osMaximumVersion:** None<br/>**blockedManufacturers:** <ul></ul>**blockedSkus:** <ul></ul>|
+|Tvos Restriction                    |**platformBlocked:** False<br/>**personalDeviceEnrollmentBlocked:** False<br/>**osMinimumVersion:** None<br/>**osMaximumVersion:** None<br/>**blockedManufacturers:** <ul></ul>**blockedSkus:** <ul></ul>|
 
 ### All users and all devices
 Description: This is the default Windows Hello for Business configuration applied with the lowest priority to all users regardless of group membership\.
