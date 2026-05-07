@@ -5,8 +5,6 @@
      "priority": 0,
      "roleScopeTagIds": [],
      "deviceEnrollmentConfigurationType": "platformRestrictions",
-     "visionOSRestriction": null,
-     "tvosRestriction": null,
      "iosRestriction": {
           "platformBlocked": false,
           "personalDeviceEnrollmentBlocked": false,
@@ -64,6 +62,22 @@
           "blockedSkus": []
      },
      "macOSRestriction": {
+          "platformBlocked": false,
+          "personalDeviceEnrollmentBlocked": false,
+          "osMinimumVersion": null,
+          "osMaximumVersion": null,
+          "blockedManufacturers": [],
+          "blockedSkus": []
+     },
+     "visionOSRestriction": {
+          "platformBlocked": false,
+          "personalDeviceEnrollmentBlocked": false,
+          "osMinimumVersion": null,
+          "osMaximumVersion": null,
+          "blockedManufacturers": [],
+          "blockedSkus": []
+     },
+     "tvosRestriction": {
           "platformBlocked": false,
           "personalDeviceEnrollmentBlocked": false,
           "osMinimumVersion": null,
