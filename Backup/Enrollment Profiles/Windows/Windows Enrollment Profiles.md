@@ -16,6 +16,7 @@ Description: This is the default enrollment status screen configuration applied 
 |Block Device Setup Retry By User             |True                                                           |
 |Allow Device Reset On Install Failure        |False                                                          |
 |Allow Log Collection On Install Failure      |False                                                          |
+|Custom Error Message                         |<details><summary>Click to expand...</summary></details>       |
 |Allow Device Use On Install Failure          |False                                                          |
 |Allow Non Blocking App Installation          |False                                                          |
 |Install Quality Updates                      |False                                                          |
