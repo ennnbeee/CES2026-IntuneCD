@@ -73,7 +73,7 @@ From the saved content, create the following:
 **github.com > Repository > Actions > Simple workflow**
 
 - Filename intune-backup.yml
-- Get a copy of intune-backup.yml from https://github.com/ennnbeee/CES2026
+- Get a copy of intune-backup.yml from [here](https://github.com/ennnbeee/CES2026-IntuneCD/blob/main/.github/workflows/intune-backup.yml)
 - Commit changes
 
 
