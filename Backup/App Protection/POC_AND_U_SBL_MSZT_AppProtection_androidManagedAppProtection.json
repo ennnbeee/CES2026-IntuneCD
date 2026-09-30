@@ -73,6 +73,7 @@
      "appActionIfAndroidDeviceManufacturerNotAllowed": "block",
      "appActionIfAccountIsClockedOut": null,
      "appActionIfSamsungKnoxAttestationRequired": "blockWhenSettingIsSupported",
+     "appActionIfDeveloperOptionsEnabled": null,
      "requiredAndroidSafetyNetDeviceAttestationType": "none",
      "appActionIfAndroidSafetyNetDeviceAttestationFailed": "block",
      "requiredAndroidSafetyNetAppsVerificationType": "none",
