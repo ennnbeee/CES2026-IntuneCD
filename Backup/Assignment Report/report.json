@@ -6,13 +6,13 @@
           "assignedTo": {
                "App Protection": [
                     {
-                         "name": "POC_IOS_U_SBL_MSZT_AppProtection",
-                         "type": "iosManagedAppProtection",
+                         "name": "POC_AND_U_SBL_MSZT_AppProtection",
+                         "type": "androidManagedAppProtection",
                          "intent": "Include"
                     },
                     {
-                         "name": "POC_AND_U_SBL_MSZT_AppProtection",
-                         "type": "androidManagedAppProtection",
+                         "name": "POC_IOS_U_SBL_MSZT_AppProtection",
+                         "type": "iosManagedAppProtection",
                          "intent": "Include"
                     }
                ]
